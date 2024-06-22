@@ -18,7 +18,7 @@ stages {
 
     stage('Deploy') {
         environment {
-            TOMCAT_HOME = '/opt/tomcat'
+            TOMCAT_HOME = 'http://31.128.40.167:8085/opt/tomcat'
             WAR_FILE = 'target/aston-1.0-SNAPSHOT.war'
         }
 
