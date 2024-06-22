@@ -8,6 +8,6 @@ public class TomcatController {
 
     @GetMapping("/")
     public String sayHello() {
-        return "Привет, Сергей!";
+        return "Привет, Кирилл!";
     }
 }
